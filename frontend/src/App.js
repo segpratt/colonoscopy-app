@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ColonoscopyResources from "./pages/ColonoscopyResources";
+import ColonCancerInfo from "./pages/ColonCancerInfo";
 import Feedback from "./pages/Feedback";
 import PreColDietInfo from "./pages/PreColDietInfo";
 import ContactUs from "./pages/ContactUs";
