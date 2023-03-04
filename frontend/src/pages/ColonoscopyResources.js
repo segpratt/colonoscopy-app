@@ -40,11 +40,11 @@ function ColonoscopyResources() {
     <div className='generalResources'>
     <h2>General Resources</h2>
     <ul className='resourcesList'>
-    <li><a href="https://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" rel="noopener noreferrer">Colon Cancer Screening Information</a></li>
-    <li><Link to="/pre-colonoscopy-diet">Pre-colonoscopy Diet Information</Link></li>
-    <li><a href="https://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" rel="noopener noreferrer">Colyte Prep Instructions</a></li>
+    <li><Link to="/colonoscopyResources">Colon Cancer Screening Information</Link></li>
+    <li><Link to="/colonoscopyResources">Pre-colonoscopy Diet Information</Link></li>
+    <li><Link to="/colonoscopyResources">Colyte Prep Instructions</Link></li>
     <li><Link to="/colonoscopyResources">Frequenty Asked Questions</Link></li>
-    <li><Link to="/colonoscopyResources">Colonoscopy Resources</Link></li>
+    <li><Link to="/colonoscopyResources">Glossary</Link></li>
     </ul>
     </div>
     <div className='beforeArrive'>
@@ -66,11 +66,10 @@ function ColonoscopyResources() {
     <div className='moreInfo'>
       <h2>More Information</h2>
       <ul className='moreInfoList'>
-    <li><a href="https://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" rel="noopener noreferrer">Colon Cancer Screening Information</a></li>
-    <li><Link to="/pre-colonoscopy-diet">Pre-colonoscopy Diet Information</Link></li>
-    <li><a href="https://www.albertahealthservices.ca/info/Page12630.aspx" target="_blank" rel="noopener noreferrer">Colyte Prep Instructions</a></li>
-    <li><Link to="/colonoscopyResources">Frequenty Asked Questions</Link></li>
-    <li><Link to="/colonoscopyResources">Colonoscopy Resources</Link></li>
+    <li><a href="https://www.albertahealthservices.ca/findhealth/Service.aspx?id=1026405" target="_blank" rel="noopener noreferrer">Alberta Colorectal Cancer Screening Program</a></li>
+    <li><a href="https://albertafindadoctor.ca/" target="_blank" rel="noopener noreferrer">Find a Family Physician in Calgary</a></li>
+    <li><a href="https://www.colorectalcancercanada.com/" target="_blank" rel="noopener noreferrer">Colorectal Cancer Association of Canada</a></li>
+    <li><a href="https://myhealth.alberta.ca/Health/Pages/conditions.aspx?hwid=hw198266" target="_blank" rel="noopener noreferrer">MyHealth Alberta: Colorectal Cancer Information</a></li>
     </ul>
     </div>
 
