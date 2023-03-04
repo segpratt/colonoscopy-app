@@ -1,0 +1,15 @@
+{
+  "name": "create-frontend",
+  "description": "colonoscopy",
+  "version": "0.0.0",
+  "author": "group 4 <104796977+segpratt@users.noreply.github.com>",
+  "bin": "src/cli.js",
+  "files": [
+    "src",
+    "templates"
+  ],
+  "dependencies": {
+    "create-create-app": "^7.3.0"
+  },
+  "license": "MIT"
+}
