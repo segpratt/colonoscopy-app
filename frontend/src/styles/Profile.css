@@ -1,8 +1,12 @@
 .upcoming-apps{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
+.upcoming-apps>table{
+    border-collapse: initial;
+    width: max-content
+}
 .upcoming-apps>div{
     
     display: flex;
@@ -12,5 +16,5 @@
 
 .upcoming-apps>div>button{
     font-size: x-large;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }

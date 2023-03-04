@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import { useLocation } from "react-router-dom";
 import {Link} from "react-router-dom";
 import '../styles/Profile.css'
+
 function Profile(){
     const location = useLocation();
 
