@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/Faq.css";
-import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
 import { useState } from "react";
 
 function Faq() {
@@ -313,6 +311,43 @@ function Faq() {
               men, the risk of developing colon cancer is 1 in 13 and 1 in 28
               will die from the disease. • One in 16 women will develop colon
               cancer and 1 in 32 can expect to die from it.
+            </p>
+          ) : null}
+        </li>
+        <li>
+          <p classname="faq-question" id="align" onClick={handleClick14}>
+            How can I lower my risk of colon cancer?
+          </p>
+          {isButtonClicked14 ? (
+            <p className="faq-answer" id="align">
+              The best way to lower your risk is to get tested regularly
+              beginning at age 50. If you have a personal or family history of
+              polyps or cancer, talk to your doctor about a screening plan that
+              is right for you. Other ways to reduce your risk of colon cancer
+              include practicing a healthy lifestyle, including: • getting
+              regular exercise • eating a healthy diet • keeping a healthy body
+              weight • avoiding tobacco and using alcohol only in moderation
+              Whether you have already been doing some of these things for a
+              long time or are just starting to make changes toward adopting a
+              healthy lifestyle, it is still important that you get tested. Find
+              out more about reducing your risk by calling the Canadian Cancer
+              Society at 1-888-939-3333, Monday to Friday from 9 a.m. to 6 p.m,
+              or by visiting the Canadian Cancer Society website at
+              www.cancer.ca.
+            </p>
+          ) : null}
+        </li>
+        <li>
+          <p classname="faq-question" id="align" onClick={handleClick15}>
+            Is there a specific age to start getting tested for colon cancer?
+          </p>
+          {isButtonClicked15 ? (
+            <p className="faq-answer" id="align">
+              Everyone should start regular testing at age 50. If you have a
+              family history of colon cancer or polyps (abnormal growths of the
+              lining of the colon that can progress to cancer), your doctor may
+              begin testing you at age 40 or even younger, and may want to test
+              you more often than people without a family history
             </p>
           ) : null}
         </li>
