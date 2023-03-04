@@ -40,7 +40,7 @@ function ColonoscopyResources() {
     <div className='generalResources'>
     <h2>General Resources</h2>
     <ul className='resourcesList'>
-    <li><Link to="/colonoscopyResources">Colon Cancer Screening Information</Link></li>
+    <li><Link to="/coloncancerinfo">Colon Cancer Screening Information</Link></li>
     <li><Link to="/colonoscopyResources">Pre-colonoscopy Diet Information</Link></li>
     <li><Link to="/colonoscopyResources">Colyte Prep Instructions</Link></li>
     <li><Link to="/colonoscopyResources">Frequenty Asked Questions</Link></li>
