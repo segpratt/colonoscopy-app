@@ -25,6 +25,7 @@ function App() {
         <Route path='/colonoscopyResources' element= {<ColonoscopyResources />} />
         <Route path='/patient-feedback' element={<Feedback/>}/>
         <Route path='/pre-colonoscopy-diet' element={<PreColDietInfo/>}/>
+        <Route path='/contactUs' element= {<ContactUs />} />
       </Routes>
       <Footer/>
 

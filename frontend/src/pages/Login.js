@@ -8,20 +8,31 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
+import { useNavigate } from "react-router-dom";
+export let userInfo = undefined;
 
 
 const theme = createTheme();
 
 export default function Login() {
+  const [loggedIn, setLoggedIn] = React.useState(false);
+  const nav = useNavigate();
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
+    if (data.get('email') === 'user1@gmail.com' && data.get('password') === '1234') {
+      userInfo = data.get('email');
+      setLoggedIn(true);
+    } else {
+      alert('Invalid email or password');
+    }
   };
+
+  if (loggedIn) {
+    return nav("/userProfile");
+
+  }
 
   return (
     <ThemeProvider theme={theme}>
