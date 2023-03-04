@@ -16,6 +16,7 @@ import Faq from "./pages/Faq";
 import Glossary from "./pages/Glossary";
 import ScreeningAppointment from "./pages/ScreeningAppointment";
 import ColonoscopyAppointment from "./pages/ColonoscopyAppointment";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path='/glossary' element= {<Glossary />} />
           <Route path='/screeningAppointment' element= {<ScreeningAppointment />} />
-        <Route path='/colonoscopyAppointment' element= {<ColonoscopyAppointment />} />
+          <Route path='/colonoscopyAppointment' element= {<ColonoscopyAppointment />} />
+          <Route path="/userProfile" element={<Profile/>} />
         </Routes>
         <Footer />
       </Router>

@@ -30,8 +30,7 @@ export default function Login() {
   };
 
   if (loggedIn) {
-    return nav("/userProfile");
-
+    return nav("/userProfile", {state: {name: "Will"}});
   }
 
   return (
