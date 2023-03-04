@@ -18,3 +18,25 @@
     font-size: x-large;
     /* border-radius: 10px; */
 }
+.modify-btn {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modify-btn:hover {
+    background-color: #005fa3;
+}
+
+.modify-btn:active {
+    background-color: #004d8c;
+}
+a {
+    display: inline-block;
+}
+

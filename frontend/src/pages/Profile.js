@@ -5,7 +5,9 @@ import '../styles/Profile.css'
 
 function Profile(){
     const location = useLocation();
-
+    const handleBookAppointment = () => {
+        window.alert(`You have canceled your appointment`);
+      }
     return(
         <div>
             <Navbar></Navbar>
@@ -33,9 +35,15 @@ function Profile(){
                     </tbody>
                 </table>
                 <div>
-                    <button>Modify Appointment</button>
-                    <button>Cancel Appointment</button>
-                </div>
+                <Link to="/colonoscopyAppointment">
+                    <button className="modify-btn">Modify Colonoscopy Appointment</button>
+                </Link>
+                <Link to="/screeningAppointment">
+                    <button className="modify-btn">Modify Screening Appointment</button>
+                </Link>
+                <button onClick={() => handleBookAppointment()} className="modify-btn">Cancel Appointment</button>
+             </div>
+
             </div>
             <div className="resources">
                 <h2>General Resources</h2>
