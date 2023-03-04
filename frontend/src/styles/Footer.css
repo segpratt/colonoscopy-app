@@ -1,0 +1,33 @@
+
+  .footer-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 8px;
+  }
+  
+  .footer-links a {
+    color: rgb(61, 109, 223);
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+
+ 
+
+
+  
+  

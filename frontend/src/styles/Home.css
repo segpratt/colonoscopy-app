@@ -1,0 +1,45 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 50px; 
+
+}
+
+.homecontain {
+  width: 600px;
+  height: 200;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-top: 0;
+  padding: 20%;
+}
+
+.container p {
+  margin-bottom: 0;
+}
+
+
+
+.ButtonsHome {
+  display: flex;
+  justify-content: space-between;
+}
+.ButtonsHome button {
+  text-transform: capitalize;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+  background-color: darkgray;
+  border-radius: 5px;
+  margin-right: 10px; /* optional spacing between buttons */
+}
+
