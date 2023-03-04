@@ -2,8 +2,9 @@
     background-color: #f8f8f8;
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
-  }
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
   
   .glossary_title {
     color: #333;

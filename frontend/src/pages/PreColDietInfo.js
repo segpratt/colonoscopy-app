@@ -4,7 +4,7 @@ import "../styles/PreColDietInfo.css"
 function PreColDietInfo(){
 
     return (
-        <div>
+        <div className = 'precolwrapper'>
             <Navbar></Navbar>
             <h2>Pre-Colonoscopy Diet Information</h2>
             <div className='dietinstructions'>
