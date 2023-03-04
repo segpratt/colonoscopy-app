@@ -1,0 +1,44 @@
+.screeningTimes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 50px; 
+  
+  }
+  
+  .times {
+    width: 600px;
+    height: 200;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  td:nth-child(1) {
+    width: 40%;
+  }
+  
+  td:nth-child(2) {
+    width: 40%;
+  }
+  
+  td:nth-child(3) {
+    width: 20%;
+    text-align: right;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
