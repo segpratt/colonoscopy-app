@@ -12,6 +12,7 @@ import Feedback from "./pages/Feedback";
 import PreColDietInfo from "./pages/PreColDietInfo";
 import ContactUs from "./pages/ContactUs";
 import Faq from "./pages/Faq";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/pre-colonoscopy-diet" element={<PreColDietInfo />} />
           <Route path="/contactUs" element={<ContactUs />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/userProfile" element={<Profile/>} />
         </Routes>
         <Footer />
       </Router>

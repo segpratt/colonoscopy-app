@@ -8,7 +8,9 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Profile from "./Profile";
 import { useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 export let userInfo = undefined;
 
 
@@ -30,8 +32,7 @@ export default function Login() {
   };
 
   if (loggedIn) {
-    return nav("/userProfile");
-
+    return nav("/userProfile", {state: {name: "Will"}});
   }
 
   return (
