@@ -11,6 +11,7 @@ import ColonoscopyResources from "./pages/ColonoscopyResources";
 import Feedback from "./pages/Feedback";
 import PreColDietInfo from "./pages/PreColDietInfo";
 import ContactUs from "./pages/ContactUs";
+import Glossary from "./pages/Glossary";
 
 
 
@@ -27,6 +28,7 @@ function App() {
         <Route path='/patient-feedback' element={<Feedback/>}/>
         <Route path='/pre-colonoscopy-diet' element={<PreColDietInfo/>}/>
         <Route path='/contactUs' element= {<ContactUs />} />
+        <Route path='/glossary' element= {<Glossary />} />
       </Routes>
       <Footer/>
 
