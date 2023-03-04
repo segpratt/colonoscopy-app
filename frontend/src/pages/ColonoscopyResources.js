@@ -44,7 +44,7 @@ function ColonoscopyResources() {
     <li><Link to="/pre-colonoscopy-diet">Pre-colonoscopy Diet Information</Link></li>
     <li><Link to="/colonoscopyResources">Colyte Prep Instructions</Link></li>
     <li><Link to="/faq">Frequenty Asked Questions</Link></li>
-    <li><Link to="/colonoscopyResources">Glossary</Link></li>
+    <li><Link to="/glossary">Glossary</Link></li>
     </ul>
     </div>
     <div className='beforeArrive'>

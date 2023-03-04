@@ -7,7 +7,7 @@ function Glossary() {
   return (
     <div>
       <Navbar/>
-      <embed src={glossary} type="application/pdf" width="100%" height="850px" />
+      <embed src={glossary} type="application/pdf" width="100%" height="500px" />
     </div>
   );
 }

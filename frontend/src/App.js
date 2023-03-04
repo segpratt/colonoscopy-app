@@ -32,7 +32,7 @@ function App() {
           />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path='/coloncancerinfo' element = {<><Navbar /><ColonCancerInfo/></>}/>
+          <Route path='/coloncancerinfo' element = {<ColonCancerInfo/>}/>
           <Route
             path="/colonoscopyResources"
             element={<ColonoscopyResources />}
