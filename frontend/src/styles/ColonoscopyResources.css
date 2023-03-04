@@ -1,0 +1,92 @@
+.colonoscopyresources {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 50px; 
+  
+  }
+  
+  .resourcesList {
+    display: block;
+    justify-content: left;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10px;
+    
+  }
+  
+  .generalResources ul li a {
+    text-decoration: none;
+    color: rgb(61, 109, 223); 
+  
+  }
+  
+  .generalResources {
+    width: 600px;
+    height: 200;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .beforeArrive {
+    width: 600px;
+    height: 200;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .moreInfo {
+    width: 600px;
+    height: 200;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .buttonsArrive {
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .video {
+    justify-content: center;
+  }
+  
+  .buttonsArrive button {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-right: 10px; /* optional spacing between buttons */
+  }
+  
+  
+  .moreInfoList {
+    display: block;
+    justify-content: left;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 10px;
+    
+  }
+  
+  .moreInfo ul li a {
+    text-decoration: none;
+    color: rgb(61, 109, 223); 
+  
+  }

@@ -5,9 +5,9 @@ import Home from "./pages/Home";
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
-
-
+import ColonoscopyResources from "./pages/ColonoscopyResources";
+import ContactUs from "./pages/ContactUs";
+import Login from "./pages/Login";
 
 
 function App() {
@@ -16,6 +16,9 @@ function App() {
     <Router>
       <Routes>
       <Route path='/' element={<><Navbar /><Home /></>} /> 
+      <Route path='/login' element= {<Login />} />
+      <Route path='/colonoscopyResources' element= {<ColonoscopyResources />} />
+      <Route path='/contactUs' element= {<ContactUs />} />
       </Routes>
       <Footer/>
 
